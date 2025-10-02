@@ -514,6 +514,21 @@
           </div>
 
           <div class="input-wrapper">
+            <label class="modal-lable" for="user-phone">Phone</label>
+            <div class="modal-input-div">
+              <input
+                class="modal-input"
+                type="tel"
+                name="user-phone"
+                id="user-phone"
+                required
+              />
+              <svg class="modal-icon" height="24" width="18">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="input-wrapper">
             <label class="modal-lable" for="user-email">Email </label>
             <div class="modal-input-div">
               <input
@@ -527,32 +542,14 @@
               </svg>
             </div>
           </div>
-
-          <div class="input-wrapper">
-            <label class="modal-lable" for="user-phone">Phone number </label>
-            <div class="modal-input-div">
-              <input
-                class="modal-input"
-                type="tel"
-                name="user-phone"
-                id="user-phone"
-                required
-              />
-              <svg class="modal-icon" height="24" width="24">
-                <use href="./images/icons.svg#icon-phone"></use>
-              </svg>
-            </div>
-          </div>
           <div class="modal-lable-textarea-div">
-            <label class="modal-lable" for="user-comment">
-              Comment
-              <textarea
-                class="modal-textarea"
-                name="user-comment"
-                id="user-comment"
-                placeholder="Text input"
-              ></textarea>
-            </label>
+            <label class="modal-lable" for="user-comment"> Comment </label>
+            <textarea
+              class="modal-textarea"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+            ></textarea>
           </div>
 
           <div class="checkbox-wrapper">
