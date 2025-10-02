@@ -763,11 +763,6 @@ address {
   color: var(--iris);
 }
 
-.close-icon {
-  stroke: #404040;
-  transition: stroke 250ms linear;
-}
-
 .modal-icon {
   position: absolute;
   top: 50%;
